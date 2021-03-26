@@ -11,7 +11,7 @@ namespace CommonRequestDemo
     {
         static void Main(string[] args)
         {
-            IClientProfile profile = DefaultProfile.GetProfile("cn-shanghai",  "akid", "aksecret");
+            IClientProfile profile = DefaultProfile.GetProfile("cn-shanghai",  "LTAI5tQewyNWV67aiSbyjiVV", "DuUFuq933u1CrhOajxFQaofYet049m");
             DefaultAcsClient client = new DefaultAcsClient(profile);
             CommonRequest request = new CommonRequest();
             request.Method = MethodType.POST;
